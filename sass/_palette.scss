@@ -1,0 +1,31 @@
+// Palette perso
+
+$dark-1 : #3D3A4b;
+$beige-complementary: #eeebd0;
+$main-red: #c70a0a;
+$share-red-1: #c33838;
+$share-red-2: #ebb3a9;
+$share-red-3: #e87ea1;
+
+
+$custom-theme-colors : (
+     "beige" : $beige-complementary,
+     "share-red-1" :$share-red-1,
+     "share-red-2" :$share-red-2,
+     "share-red-3" :$share-red-3,
+     "dark-1" :$dark-1,
+     "main-red" : $main-red
+);
+
+
+     $theme-colors: map.merge($custom-theme-colors, $theme-colors);
+
+     // reparer le bug de bootstrap sur les bg et le text
+     @each $key, $val in $custom-theme-colors {
+          .bg-#{$key} {
+               background-color: $val;
+          }
+          .text-#{$key} {
+               color: $val;
+          }
+     }
