@@ -1,9 +1,16 @@
 
 # Site Web du Restaurant Japonais - Your Best Sushis Provider (EN COURS)
 
-![Licence](https://img.shields.io/badge/licence-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![Statut](https://img.shields.io/badge/statut-en%20production-brightgreen.svg)
+## Technologies utilisées
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![SCSS](https://img.shields.io/badge/SCSS-%23CC6699.svg?&style=for-the-badge&logo=sass&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white)
+
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+
+
 
 Ce projet est un site web élégant pour un restaurant japonais de haute qualité, mettant en valeur ses sushis primés, son menu varié et son équipe de chefs experts.
 
@@ -27,32 +34,20 @@ Le site présente un design moderne et attrayant avec un contraste saisissant en
 ## Fonctionnalités
 
 - Design responsive avec une navigation claire (HOME, MENU, RESERVATION)
-- Mise en avant des récompenses (Japanese Restaurant Award 2019-2021)
-- Présentation des plats phares avec des images de haute qualité
+- Présentation des plats phares 
 - Section "Our Dream Team" présentant les chefs experts
 - Système de réservation intégré
 - Sections promotionnelles mettant en avant la qualité de la cuisine japonaise
 
 
-
-## Technologies utilisées
-
-- HTML5
-- CSS3 (avec un focus sur le design moderne et les transitions)
-- JavaScript (pour les interactions et les animations)
-- Technologie de fond responsive pour les images
-- Police personnalisée pour un design unique
-
 ## Prérequis
 
 - Un serveur web local (ex : [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) pour Visual Studio Code)
 - Un navigateur web moderne (Chrome, Firefox, Safari, Edge)
-- Connexion Internet (pour le chargement des polices et des ressources externes)
 
 ## Installation
 
 1. Clonez le dépôt sur votre machine locale : [Cliquez ici](https://github.com/pascalinecte91/Japanese-Restaurant.git)
-
 2. Ouvrez le projet dans votre éditeur de code préféré.
 
 ## Utilisation
@@ -91,6 +86,8 @@ Ce projet utilise les deux polices suivantes :
 
 Voici des exemples de texte utilisant les deux polices :
 
-### <p style="font-family: 'Montserrat', sans-serif; font-weight: 400;">Ceci est un exemple de texte affiché avec la police Montserrat, poids 400.</p>
+### Montserrat (400):
+![Exemple Playfair Display](./documents/font1.jpg)
 
-### <p style="font-family: 'Playfair Display', serif; font-weight: 400;">Ceci est un exemple de texte affiché avec la police Playfair Display, poids 400.</p>
+### Playfair Display (400):
+![Exemple Playfair Display](./documents/font2.jpg)

@@ -1,3 +1,90 @@
-
-
+// font de base  pour le site
 $font-family-base: Montserrat, sans-serif;
+
+// font pour les titres
+.playfair-font {
+    font-family: "Playfair Display", serif;
+}
+
+.max-width-body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+//page HOME
+
+.main-nav a{
+    position: relative;
+    display: inline-block; //permet d'avoir des éléments qui sont sur la même ligne
+}
+
+// animation surlignee
+// debute ou à gauche ou à droite ou par le centre
+.main-nav a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f1f1f1;
+    //transform-origin: bottom right;
+    transition: transform 0.2s ease-out;
+}
+.main-nav a:hover::after {
+    transform: scaleX(1);
+    //transform-origin: bottom left;
+}
+
+.home-height {
+    padding-bottom: 20vw;
+}
+.sushi {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 60%;
+    transform: translate(0, -50%);
+}
+.sushi {
+    @include media-breakpoint-down(lg) {
+        top: 65%;
+    }
+}
+.sushi {
+    @include media-breakpoint-down(md) {
+        top: 75%;
+    }
+}
+.sushi {
+    @include media-breakpoint-down(sm) {
+        display: none;
+    }
+    .home-height {
+        padding-bottom: 5vw;
+      }
+}
+
+// @media screen and (max-width: 992px) {
+//     .sushi {
+//       top: 65%;
+//     }
+//   }
+//   @media screen and (max-width: 768px) {
+//     .sushi {
+//       top: 75%;
+//     }
+//   }
+//   @media screen and (max-width: 500px) {
+//     .sushi {
+//       display: none;
+//     }
+// }
+.obj-fit-cover {
+    object-fit: cover;
+  }
+  .obj-pos-top {
+    object-position: 50% 30%;
+  }
+  

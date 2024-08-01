@@ -1,0 +1,21 @@
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+$utilities: (
+  "height": map-merge(
+    map-get($utilities, "height"),
+    (
+      values: map-merge(
+        map-get(map-get($utilities, "height"), "values"),
+        (300: 300px, 400: 400px, 750: 750px)
+      )
+    )
+  )
+)
