@@ -4,14 +4,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-   "sass": "sass --quiet sass/global.scss styles/raw/style.css --watch"
-
+    "sass": "sass --quiet sass/global.scss styles/raw/style.css --watch",
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/home.css"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "purgecss": "^6.0.0"
   }
 }

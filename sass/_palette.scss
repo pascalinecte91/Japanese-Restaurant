@@ -23,7 +23,7 @@ $custom-theme-colors : (
      // reparer le bug de bootstrap sur les bg et le text
      @each $key, $val in $custom-theme-colors {
           .bg-#{$key} {
-               background-color: $val;
+               background-color: $val !important;
           }
           .text-#{$key} {
                color: $val;

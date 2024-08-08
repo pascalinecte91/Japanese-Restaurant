@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
-  <link rel="stylesheet" href="styles/raw/style.css" />
+    <link rel="stylesheet" href="styles/cleaned/menu.css" />
 </head>
 
 <body class="max-width-body text-light bg-beige d-flex flex-column h-100">
@@ -27,37 +27,83 @@
   <!-- ASTUCE footer reste bas bootstrap : h-100 sur le body et sur le html, et un container qui s'etire avec flex-grow-1 -->
 
   <div class="container flex-grow-1 flex-shrink-0  pb-5">
+
     <div class="text-dark text-center">
       <p class="mt-4 mb-0">Only Fresh and Quality Products</p>
       <h1 class="display-4 playfair-font fw-5 m-0 ">Our Two Menus</h1>
       <p>Choose your favorite</p>
     </div>
 
-
+<!--  Accordion 1 -->
     <div class="accordion" id="accordionParent">
+
       <div class="accordion-item ">
         <h2 class="accordion-header" id="accordionOne">
-        <button class="accordion-button playfair-font fs-2 " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-          aria-expanded="true" aria-controls="collapseOne ">Sea Delight - 135 </button>
+          <button 
+          class="accordion-button playfair-font fs-2" type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseOne" 
+          aria-expanded="true" 
+          aria-controls="collapseOne">Sea Delight - 135 </button>
         </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="accordionOne"
-          data-bs-parent="#accordionParent">
-        <div class="accordion-body">
-          <ul class="list-group">
-            <li class="list-group-item">High Quality Salmon Sushi.</li>
-            <li class="list-group-item">Heaven Sashimi, raw fresh salmon meat.</li>
-            <li class="list-group-item">Shioyaki Sakana, salt-grilled fish.</li>
-            <li class="list-group-item">Katsuo-no-Tataki, lightly broiled, sliced bonito.</li>
-            <li class="list-group-item">Nanban-zuke, Marinated Fried Salmon.</li>
-            
 
-          </ul>
+        <div id="collapseOne" 
+        class="accordion-collapse collapse show" aria-labelledby="accordionOne"
+        data-bs-parent="#accordionParent">
+
+          <div class="accordion-body">
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span class="">High Quality Salmon Sushi.</span>
+                <span class="">40</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>Shioyaki Sakana, salt-grilled fish.</span>
+                <span class="">30</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2" ><span>Katsuo-no-Tataki, lightly broiled, sliced bonito.</span>
+                <span>25</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>Nanban-zuke, Marinated FriedSalmon.</span>
+                <span>25</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>Heaven Sashimi, raw fresh salmon meat.</span>
+                <span>15</span></li>
+
+            </ul>
+          </div>
         </div>
+      </div>
+
+      <!-- accordion 2 -->
+
+      <div class="accordion-item ">
+        <h2 class="accordion-header" id="accordionTwo">
+          <button 
+          class="accordion-button playfair-font fs-2" type="button" 
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseTwo" 
+          aria-controls="collapseTwo">Meat Heaven - 140 </button>
+        </h2>
+
+        <div id="collapseTwo" 
+        class="accordion-collapse collapse" aria-labelledby="accordionTwo"
+        data-bs-parent="#accordionParent">
+
+            <ul class="list-group">
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>Negima yakitori, Japanese Chicken Skewers</span>
+                <span class="">20</span>
+              </li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>    Chashu, Japanese Braised Pork Belly.</span>
+                <span class="">35</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span class="">
+                Sukiyaki, Japanese fondue.</span>
+                <span>30</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>  Shabu-shabu, sliced meat and vegetables.</span>
+                <span>25</span></li>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>  Olive Sanuki Wagyu, high quality beef cold cuts.</span>
+                <span>30</span></li>
+            </ul>
         </div>
       </div>
     </div>
-  
   </div>
+
   <footer class="bg-dark p-5 text-center">
     <a href="#" class="text-white text-decoration-none">Copyright © 2024 Japan Theme. All Rights Reserved</a>
 
