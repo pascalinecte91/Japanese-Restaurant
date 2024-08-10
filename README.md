@@ -49,6 +49,10 @@ Le site présente un design moderne et attrayant avec un contraste saisissant en
 
 1. Clonez le dépôt sur votre machine locale : [Cliquez ici](https://github.com/pascalinecte91/Japanese-Restaurant.git)
 2. Ouvrez le projet dans votre éditeur de code préféré.
+3. npm init y ( y:cree le fichier package.json)
+4. npm i bootstrap
+5. npm i -g sass ( g: en global )
+
 
 ## Utilisation
 

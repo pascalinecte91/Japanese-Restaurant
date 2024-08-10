@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="styles/cleaned/menu.css" />
+    <link rel="stylesheet" href="styles/raw/style.css" />
 </head>
 
 <body class="max-width-body text-light bg-beige d-flex flex-column h-100">
@@ -35,12 +35,12 @@
     </div>
 
 <!--  Accordion 1 -->
-    <div class="accordion" id="accordionParent">
+    <div class="accordion accordion-bg accordion-color" id="accordionParent">
 
       <div class="accordion-item ">
         <h2 class="accordion-header" id="accordionOne">
           <button 
-          class="accordion-button playfair-font fs-2" type="button" 
+          class="accordion-button accordion-button-bg playfair-font fs-2" type="button" 
           data-bs-toggle="collapse"
           data-bs-target="#collapseOne" 
           aria-expanded="true" 
@@ -49,7 +49,7 @@
 
         <div id="collapseOne" 
         class="accordion-collapse collapse show" aria-labelledby="accordionOne"
-        data-bs-parent="#accordionParent">
+        >
 
           <div class="accordion-body">
             <ul class="list-group">
@@ -71,7 +71,6 @@
       </div>
 
       <!-- accordion 2 -->
-
       <div class="accordion-item ">
         <h2 class="accordion-header" id="accordionTwo">
           <button 
@@ -83,22 +82,25 @@
 
         <div id="collapseTwo" 
         class="accordion-collapse collapse" aria-labelledby="accordionTwo"
-        data-bs-parent="#accordionParent">
+       >
 
+        
+        <div class="accordion-body">
             <ul class="list-group">
-              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>Negima yakitori, Japanese Chicken Skewers</span>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>Negima yakitori, Japanese Chicken Skewers</span>
                 <span class="">20</span>
               </li>
-              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>    Chashu, Japanese Braised Pork Belly.</span>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>    Chashu, Japanese Braised Pork Belly.</span>
                 <span class="">35</span></li>
-              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span class="">
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span class="">
                 Sukiyaki, Japanese fondue.</span>
                 <span>30</span></li>
-              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>  Shabu-shabu, sliced meat and vegetables.</span>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>  Shabu-shabu, sliced meat and vegetables.</span>
                 <span>25</span></li>
-              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-3"><span>  Olive Sanuki Wagyu, high quality beef cold cuts.</span>
+              <li class="list-group-item d-flex justify-content-between fs-5 py-4 py-md-2"><span>  Olive Sanuki Wagyu, high quality beef cold cuts.</span>
                 <span>30</span></li>
             </ul>
+        </div>
         </div>
       </div>
     </div>

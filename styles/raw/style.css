@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .bg-beige {
-  background-color: #eeebd0;
+  background-color: #eeebd0 !important;
 }
 
 .text-beige {
@@ -8,7 +8,7 @@
 }
 
 .bg-shade-red-1 {
-  background-color: #c33838;
+  background-color: #c33838 !important;
 }
 
 .text-shade-red-1 {
@@ -16,7 +16,7 @@
 }
 
 .bg-shade-red-2 {
-  background-color: #ebb3a9;
+  background-color: #ebb3a9 !important;
 }
 
 .text-shade-red-2 {
@@ -24,7 +24,7 @@
 }
 
 .bg-shade-red-3 {
-  background-color: #e87ea1;
+  background-color: #e87ea1 !important;
 }
 
 .text-shade-red-3 {
@@ -32,7 +32,7 @@
 }
 
 .bg-dark-1 {
-  background-color: #3D3A4b;
+  background-color: #3D3A4b !important;
 }
 
 .text-dark-1 {
@@ -40,7 +40,7 @@
 }
 
 .bg-main-red {
-  background-color: #c70a0a;
+  background-color: #c70a0a !important;
 }
 
 .text-main-red {
@@ -4807,7 +4807,7 @@ textarea.form-control-lg {
 }
 
 .accordion {
-  --bs-accordion-color: #eeebd0;
+  --bs-accordion-color: #3D3A4b;
   --bs-accordion-bg: #3D3A4b;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
@@ -5298,9 +5298,9 @@ textarea.form-control-lg {
 
 .list-group {
   --bs-list-group-color: #eeebd0;
-  --bs-list-group-bg: #3D3A4b;
-  --bs-list-group-border-color: var(--bs-border-color);
-  --bs-list-group-border-width: 3px;
+  --bs-list-group-bg: #212529;
+  --bs-list-group-border-color: #3D3A4b;
+  --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: var(--bs-border-radius);
   --bs-list-group-item-padding-x: 1rem;
   --bs-list-group-item-padding-y: 0.5rem;

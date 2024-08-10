@@ -1,7 +1,7 @@
 // Palette perso
 
 $dark-1 : #3D3A4b;
-$beige-complementary: #eeebd0;
+$beige: #eeebd0;
 $main-red: #c70a0a;
 $shade-red-1: #c33838;
 $shade-red-2: #ebb3a9;
@@ -9,23 +9,23 @@ $shade-red-3: #e87ea1;
 
 
 $custom-theme-colors : (
-     "beige" : $beige-complementary,
+     "beige" : $beige,
      "shade-red-1" :$shade-red-1,
      "shade-red-2" :$shade-red-2,
      "shade-red-3" :$shade-red-3,
      "dark-1" :$dark-1,
-     "main-red" : $main-red
-);
+     "main-red" : $main-red);
 
 
-     $theme-colors: map.merge($custom-theme-colors, $theme-colors);
+$theme-colors: map.merge($custom-theme-colors, $theme-colors);
 
-     // reparer le bug de bootstrap sur les bg et le text
-     @each $key, $val in $custom-theme-colors {
-          .bg-#{$key} {
-               background-color: $val !important;
-          }
-          .text-#{$key} {
-               color: $val;
-          }
+// reparer le bug de bootstrap sur les bg et le text
+@each $key, $val in $custom-theme-colors {
+     .bg-#{$key} {
+          background-color: $val !important;
      }
+
+     .text-#{$key} {
+          color: $val;
+     }
+}
