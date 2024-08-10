@@ -26,6 +26,6 @@ $theme-colors: map.merge($custom-theme-colors, $theme-colors);
      }
 
      .text-#{$key} {
-          color: $val;
+          color: $val !important;
      }
 }

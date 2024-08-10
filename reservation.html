@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
-    <link rel="stylesheet" href="styles/raw/style.css" />
+  <link rel="stylesheet" href="styles/raw/style.css" />
 </head>
 
 <body class="max-width-body text-light bg-beige d-flex flex-column h-100">
@@ -26,13 +26,62 @@
   <!-- container  page -->
   <!-- ASTUCE footer reste bas bootstrap : h-100 sur le body et sur le html, et un container qui s'etire avec flex-grow-1 -->
 
-  <div class="container flex-grow-1 flex-shrink-0  pb-5">
+  <div class="container flex-grow-1 flex-shrink-0 pb-5">
+    <h1 class="text-center text-dark-1 display-4 playfair-font pt-5 d-sm-block d-none">We are waiting for you</h1>
+    <p class="text-center text-dark-1 pb-4 d-sm-block d-none">Call us anytime</p>
 
+    <div class="row">
+      <!-- Crée une ligne Bootstrap pour 2 colonnes -->
 
+      <!-- Première colonne -->
+      <div class="col-md-6 py-5 text-center text-md-start">
+        <!-- col-md-6 :  6 colonnes sur 12 à partir de la taille d'écran moyenne (md) -->
+        <!-- py-5 : padding vertical (haut et bas) -->
+        <!-- text-md-start : Aligne le texte à gauche pour les écrans de taille moyenne et plus donc centré pour les smart -->
+        <h3 class="text-dark-1 fw-bolder">Reservation</h3>
+        <p class="text-dark-1 fs-4 mt-3">The address: 2-3, Marunouchi, Tokyo</p>
+        <p class="text-dark-1 fs-4 mt-3">Call us: +8112-214-8478</p>
+        <p class="text-dark-1 fs-4 mt-3">Email us: Ryori@gmail.com</p>
+      </div>
+
+      <!-- Deuxième colonne -->
+      <div class="col-md-6 py-5 text-center text-md-start">
+        <!-- Configuration identique à la première colonne pour la mise en page -->
+
+        <h3 class="text-dark-1 fw-bolder">Schedule</h3>
+
+        <ul class="list-group bg-light">
+          <!-- list-group : Applique le style Bootstrap pour les listes groupées -->
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Monday<span>Closed</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Tuesday<span>11am-00pm</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Wednesday<span>11am-00pm</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Thursday<span>11am-00pm</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Friday<span>11am-00pm</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Saturday<span>11am-00pm</span></li>
+          <li class="list-group-item bg-beige text-dark d-flex justify-content-between">Sunday<span>11am-00pm</span></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
+  <!-- Ligne Bootstrap sans gouttière (espace entre les colonnes) -->
+  <div class="row g-0">
+    <!-- Première Deuxième Troisième colonnes occupent chacune  4/12 -->
+    <div class="col-4">
+      <img src="ressources/images/reservation-2.jpg" class="obj-fit-cover obj-pos-top h-80 w-100" alt="" />
+    </div>
+
+    <div class="col-4">
+      <img src="ressources/images/reservation-1.jpg" class="obj-fit-cover obj-pos-top h-100 w-100" alt="" />
+    </div>
+
+    <div class="col-4">
+      <img src="ressources/images/reservation-3.jpg" class="obj-fit-cover obj-pos-top h-80 w-100" alt="" />
+    </div>
+  </div>
+
   <footer class="bg-dark p-5 text-center">
     <a href="#" class="text-white text-decoration-none">Copyright © 2024 Japan Theme. All Rights Reserved</a>
-
   </footer>
   <script src="scripts/bootstrap.bundle.js"></script>
 </body>
