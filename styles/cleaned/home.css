@@ -1,22 +1,22 @@
 @charset "UTF-8";
 .bg-beige {
-  background-color: #eeebd0;
+  background-color: #eeebd0 !important;
 }
 
 .text-beige {
-  color: #eeebd0;
+  color: #eeebd0 !important;
 }
 
 .bg-dark-1 {
-  background-color: #3D3A4b;
+  background-color: #3D3A4b !important;
 }
 
 .text-dark-1 {
-  color: #3D3A4b;
+  color: #3D3A4b !important;
 }
 
 .bg-main-red {
-  background-color: #c70a0a;
+  background-color: #c70a0a !important;
 }
 
 .playfair-font {
@@ -1170,9 +1170,9 @@ summary {
 
 .list-group {
   --bs-list-group-color: #eeebd0;
-  --bs-list-group-bg: #3D3A4b;
-  --bs-list-group-border-color: var(--bs-border-color);
-  --bs-list-group-border-width: 3px;
+  --bs-list-group-bg: #212529;
+  --bs-list-group-border-color: #3D3A4b;
+  --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: var(--bs-border-radius);
   --bs-list-group-item-padding-x: 1rem;
   --bs-list-group-item-padding-y: 0.5rem;

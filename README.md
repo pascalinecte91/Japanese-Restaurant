@@ -6,6 +6,9 @@
 ![SCSS](https://img.shields.io/badge/SCSS-%23CC6699.svg?&style=for-the-badge&logo=sass&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837.svg?&style=for-the-badge&logo=npm&logoColor=white)
+![PurgeCSS](https://img.shields.io/badge/PurgeCSS-v6-blue?logo=purgecss)
+
+
 
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
@@ -52,6 +55,9 @@ Le site présente un design moderne et attrayant avec un contraste saisissant en
 3. npm init y ( y:cree le fichier package.json)
 4. npm i bootstrap
 5. npm i -g sass ( g: en global )
+
+- npm i purgecss ; 
+lancer les 3 scripts dans package pour purger
 
 
 ## Utilisation

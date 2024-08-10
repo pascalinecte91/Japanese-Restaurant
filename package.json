@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass sass/global.scss styles/raw/style.css --watch",
-    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/home.css"
+    "purgecss": "purgecss --css styles/raw/style.css --content index.html scripts/*.js -o styles/cleaned/home.css",
+    "purgecss:menu": "purgecss --css styles/raw/style.css --content menu.html scripts/*.js -o styles/cleaned/menu.css",
+    "purgecss:reservation": "purgecss --css styles/raw/style.css --content reservation.html scripts/*.js -o styles/cleaned/reservation.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "purgecss": "^6.0.0"
   }
 }

@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .bg-beige {
-  background-color: #eeebd0;
+  background-color: #eeebd0 !important;
 }
 
 .playfair-font {
@@ -870,7 +870,7 @@ summary {
 }
 
 .accordion {
-  --bs-accordion-color: #eeebd0;
+  --bs-accordion-color: #3D3A4b;
   --bs-accordion-bg: #3D3A4b;
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
@@ -1011,9 +1011,9 @@ summary {
 
 .list-group {
   --bs-list-group-color: #eeebd0;
-  --bs-list-group-bg: #3D3A4b;
-  --bs-list-group-border-color: var(--bs-border-color);
-  --bs-list-group-border-width: 3px;
+  --bs-list-group-bg: #212529;
+  --bs-list-group-border-color: #3D3A4b;
+  --bs-list-group-border-width: 1px;
   --bs-list-group-border-radius: var(--bs-border-radius);
   --bs-list-group-item-padding-x: 1rem;
   --bs-list-group-item-padding-y: 0.5rem;
@@ -1648,10 +1648,6 @@ summary {
   .py-md-2 {
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
-  }
-  .py-md-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
   }
 }
 @media (min-width: 1200px) {
